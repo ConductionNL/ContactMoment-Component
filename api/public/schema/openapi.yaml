@@ -3595,7 +3595,7 @@ definitions:
       dateInteraction:
         description: 'The date of the interaction.'
         type: string
-        example: '2020-06-04 15:45:11'
+        example: '2020-06-04 16:39:45'
         format: date-time
       dateCreated:
         description: 'The moment this resource was created'
@@ -3640,7 +3640,7 @@ definitions:
       dateInteraction:
         description: 'The date of the interaction.'
         type: string
-        example: '2020-06-04 15:45:11'
+        example: '2020-06-04 16:39:45'
         format: date-time
     required:
       - topic
@@ -3750,12 +3750,12 @@ definitions:
         description: 'The moment this request was created'
         type: string
         format: date-time
-        example: '2020-06-04 15:45:11'
+        example: '2020-06-04 16:39:45'
       dateModified:
         description: 'The moment this request last Modified'
         type: string
         format: date-time
-        example: '2020-06-04 15:45:11'
+        example: '2020-06-04 16:39:45'
     required: []
   AuditTrail-write:
     properties:
@@ -3803,12 +3803,12 @@ definitions:
         description: 'The moment this request was created'
         type: string
         format: date-time
-        example: '2020-06-04 15:45:11'
+        example: '2020-06-04 16:39:45'
       dateModified:
         description: 'The moment this request last Modified'
         type: string
         format: date-time
-        example: '2020-06-04 15:45:11'
+        example: '2020-06-04 16:39:45'
     required: []
   ChangeLog-write:
     properties:
