@@ -4,18 +4,18 @@
 
 settings:
   registryBase: docker.io/conduction
-  projectName: pc
+  projectName: cmc
   name: cmc
   title: Contact Moment Component
   version: V.0.1
-  id: &#039;&#039;
+  id: 
   description: '&#039;Naast deze JSON rest API is er ook een [graphql](/graphql) interface beschikbaar.&#039;'
   type: component
-  repro: https://github.com/ConductionNL/proto-component
-  demo: pc.zaakonline.nl
-  container: https://hub.docker.com/repository/docker/conduction/pc-php
+  repro: https://github.com/ConductionNL/ContactMoment-Component
+  demo: cmc.zaakonline.nl
+  container: https://hub.docker.com/repository/docker/conduction/cmc-php
   domain: conduction.nl
-  subdomain: pc
+  subdomain: cmc
   organisationName: Conduction
   email: info@conduction.nl
   country: Netherlands
@@ -27,7 +27,7 @@ settings:
   cache: 1
   replicaCount: 1
   corsAllowOrigin: ['*']
-  trustedHosts: '^localhost$|^127.0.0.1$|^(.+\.)?conduction\.nl$'
+  trustedHosts: '^.+$'
   pullPolicy: Always
   # You will need these proxies on kubernetes
   trustedProxies:
