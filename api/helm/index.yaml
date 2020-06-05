@@ -1,0 +1,16 @@
+apiVersion: v1
+entries:
+  cmc:
+  - apiVersion: v1
+    appVersion: V.0.1
+    created: "2020-06-04T16:48:20.995273023Z"
+    description: '&#039;Naast deze JSON rest API is er ook een [graphql](/graphql)
+      interface beschikbaar.&#039;'
+    digest: 5108e5a2edb99ec499624ce81c64839a0e8df7a663af1909c09a97109b83af2f
+    home: cmc.zaakonline.nl
+    icon: cmc.zaakonline.nl
+    name: cmc
+    urls:
+    - cmc-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-06-04T16:48:20.991415523Z"
