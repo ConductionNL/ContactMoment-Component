@@ -14,7 +14,7 @@ settings:
   repro: https://github.com/ConductionNL/ContactMoment-Component
   demo: cmc.zaakonline.nl
   container: https://hub.docker.com/repository/docker/conduction/cmc-php
-  domain: conduction.nl
+  domain: dev
   subdomain: cmc
   organisationName: Conduction
   email: info@conduction.nl
@@ -23,6 +23,7 @@ settings:
   locality: Amsterdam
   unit: Common-Ground
   env: dev
+  web: false
   debug: 1
   cache: 1
   replicaCount: 1

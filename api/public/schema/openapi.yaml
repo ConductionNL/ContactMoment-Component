@@ -400,6 +400,15 @@ paths:
             type: integer
             default: 1
         -
+          name: limit
+          in: query
+          required: false
+          description: 'The number of items per page'
+          schema:
+            type: integer
+            default: 30
+            minimum: 0
+        -
           name: Authorization
           description: 'The JWT of the entity performing the request'
           in: header
@@ -1296,6 +1305,15 @@ paths:
           schema:
             type: integer
             default: 1
+        -
+          name: limit
+          in: query
+          required: false
+          description: 'The number of items per page'
+          schema:
+            type: integer
+            default: 30
+            minimum: 0
         -
           name: Authorization
           description: 'The JWT of the entity performing the request'
@@ -2328,6 +2346,15 @@ paths:
           schema:
             type: integer
             default: 1
+        -
+          name: limit
+          in: query
+          required: false
+          description: 'The number of items per page'
+          schema:
+            type: integer
+            default: 30
+            minimum: 0
         -
           name: Authorization
           description: 'The JWT of the entity performing the request'
@@ -3595,7 +3622,7 @@ definitions:
       dateInteraction:
         description: 'The date of the interaction.'
         type: string
-        example: '2020-06-05 13:31:57'
+        example: '2020-06-18 12:08:51'
         format: date-time
       dateCreated:
         description: 'The moment this resource was created'
@@ -3640,7 +3667,7 @@ definitions:
       dateInteraction:
         description: 'The date of the interaction.'
         type: string
-        example: '2020-06-05 13:31:57'
+        example: '2020-06-18 12:08:51'
         format: date-time
     required:
       - topic
@@ -3684,12 +3711,12 @@ definitions:
         description: 'The moment this request was created'
         type: string
         format: date-time
-        example: '2020-06-05 13:31:57'
+        example: '2020-06-18 12:08:51'
       dateModified:
         description: 'The moment this request last Modified'
         type: string
         format: date-time
-        example: '2020-06-05 13:31:57'
+        example: '2020-06-18 12:08:51'
     required: []
   ChangeLog-write:
     properties:
@@ -3803,12 +3830,12 @@ definitions:
         description: 'The moment this request was created'
         type: string
         format: date-time
-        example: '2020-06-05 13:31:57'
+        example: '2020-06-18 12:08:51'
       dateModified:
         description: 'The moment this request last Modified'
         type: string
         format: date-time
-        example: '2020-06-05 13:31:57'
+        example: '2020-06-18 12:08:51'
     required: []
   AuditTrail-write:
     properties:
@@ -3869,7 +3896,7 @@ x-commonground:
       url: 'https://github.com/ConductionNL'
       email: info@conduction.nl
     -
-      name: 'Gemeente ''s-Hertogenbosch'
+      name: 'Gemeente "s-Hertogenbosch'
       url: 'https://github.com/gemeenteshertogenbosch'
       email: info@s-hertogenbosch.nl/
     -
