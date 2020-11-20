@@ -121,7 +121,6 @@ class ContactMoment
      *
      * @example 10-12-2019
      *
-     * @Assert\DateTime
      * @Groups({"read","write"})
      * @ORM\Column(type="datetime", nullable=true)
      */
