@@ -2,15 +2,38 @@ apiVersion: v1
 entries:
   cmc:
   - apiVersion: v1
-    appVersion: V.0.1
-    created: "2020-07-21T09:03:42.6900285Z"
+    appVersion: V1.0
+    created: "2020-11-20T12:28:31.7813013Z"
     description: '&#039;Naast deze JSON rest API is er ook een [graphql](/graphql)
       interface beschikbaar.&#039;'
-    digest: 5f13a49930908ab52db0d6bc8e049a537f1edb9af59a9ffe6c1c67ffb36931d1
+    digest: 2a05db4d35183ed0f93a5055ced2a427d10a4c6be0ab9cec9309a3997702858d
     home: cmc.zaakonline.nl
     icon: cmc.zaakonline.nl
     name: cmc
     urls:
     - cmc-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-21T09:03:42.6803589Z"
+  postgresql:
+  - apiVersion: v1
+    appVersion: 11.7.0
+    created: "2020-11-20T12:28:31.802044Z"
+    deprecated: true
+    description: DEPRECATED Chart for PostgreSQL, an object-relational database management
+      system (ORDBMS) with an emphasis on extensibility and on standards-compliance.
+    digest: 00745b88e84403be696b7514c6e8c02710d81eb6074876b0700fa28fd47a9b43
+    home: https://www.postgresql.org/
+    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-110x117.png
+    keywords:
+    - postgresql
+    - postgres
+    - database
+    - sql
+    - replication
+    - cluster
+    name: postgresql
+    sources:
+    - https://github.com/bitnami/bitnami-docker-postgresql
+    urls:
+    - charts/postgresql-8.6.4.tgz
+    version: 8.6.4
+generated: "2020-11-20T12:28:31.7725341Z"

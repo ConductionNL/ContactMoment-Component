@@ -1,13 +1,13 @@
 openapi: 3.0.2
 info:
   title: 'Contact Moment Component'
-  version: V.0.1
+  version: V1.0
   description: |
     API Details
     - Component: Contact Moment Component
     - Reference: cmc
     - Enviroment: dev
-    - Version: V.0.1
+    - Version: V1.0
     - Repository: [online](https://github.com/ConductionNL/ContactMoment-Component) / [zip](https://github.com/ConductionNL/ContactMoment-Component/archive/master.zip)
     - Docker Image: [online](https://hub.docker.com/repository/docker/conduction/cmc-php) 
     - Datamodel: [postman](/schema/cmc.postman_collection.json) / [oas](/schema/openapi.yaml) / [pdf](/schema/datamodel.pdf) / [mwb](/schema/datamodel.mwb) 
@@ -3046,18 +3046,23 @@ components:
         route:
           description: 'The moment this request was created'
           type: string
+          nullable: true
         endpoint:
           description: 'The endpoint that the request was made to'
           type: string
+          nullable: true
         method:
           description: 'The method that was used'
           type: string
+          nullable: true
         accept:
           description: 'The contentType that was reqousted'
           type: string
+          nullable: true
         contentType:
           description: 'The contentType that was suplieds'
           type: string
+          nullable: true
         content:
           description: 'The moment this request was created'
           type: string
@@ -3065,6 +3070,7 @@ components:
         ip:
           description: 'The moment this request was created'
           type: string
+          nullable: true
         session:
           description: 'The moment this request was created'
           type: string
@@ -3176,18 +3182,23 @@ components:
         route:
           description: 'The moment this request was created'
           type: string
+          nullable: true
         endpoint:
           description: 'The endpoint that the request was made to'
           type: string
+          nullable: true
         method:
           description: 'The method that was used'
           type: string
+          nullable: true
         accept:
           description: 'The contentType that was reqousted'
           type: string
+          nullable: true
         contentType:
           description: 'The contentType that was suplieds'
           type: string
+          nullable: true
         content:
           description: 'The moment this request was created'
           type: string
@@ -3195,6 +3206,7 @@ components:
         ip:
           description: 'The moment this request was created'
           type: string
+          nullable: true
         session:
           description: 'The moment this request was created'
           type: string
@@ -3622,7 +3634,7 @@ definitions:
       dateInteraction:
         description: 'The date of the interaction.'
         type: string
-        example: '2020-07-21 09:06:10'
+        example: '2020-11-20 12:29:26'
         format: date-time
       dateCreated:
         description: 'The moment this resource was created'
@@ -3667,7 +3679,7 @@ definitions:
       dateInteraction:
         description: 'The date of the interaction.'
         type: string
-        example: '2020-07-21 09:06:10'
+        example: '2020-11-20 12:29:26'
         format: date-time
     required:
       - topic
@@ -3777,12 +3789,12 @@ definitions:
         description: 'The moment this request was created'
         type: string
         format: date-time
-        example: '2020-07-21 09:06:10'
+        example: '2020-11-20 12:29:27'
       dateModified:
         description: 'The moment this request last Modified'
         type: string
         format: date-time
-        example: '2020-07-21 09:06:10'
+        example: '2020-11-20 12:29:27'
     required: []
   AuditTrail-write:
     properties:
@@ -3830,12 +3842,12 @@ definitions:
         description: 'The moment this request was created'
         type: string
         format: date-time
-        example: '2020-07-21 09:06:10'
+        example: '2020-11-20 12:29:27'
       dateModified:
         description: 'The moment this request last Modified'
         type: string
         format: date-time
-        example: '2020-07-21 09:06:10'
+        example: '2020-11-20 12:29:27'
     required: []
   ChangeLog-write:
     properties:
