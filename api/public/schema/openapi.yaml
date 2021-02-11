@@ -12,7 +12,7 @@ info:
     - Docker Image: [online](https://hub.docker.com/repository/docker/conduction/cmc-php) 
     - Datamodel: [postman](/schema/cmc.postman_collection.json) / [oas](/schema/openapi.yaml) / [pdf](/schema/datamodel.pdf) / [mwb](/schema/datamodel.mwb) 
     
-    'Naast deze JSON rest API is er ook een [graphql](/graphql) interface beschikbaar.'         
+    Naast deze JSON rest API is er ook een [graphql](/graphql) interface beschikbaar.         
     
 paths:
   /audit_trails:
@@ -3415,8 +3415,6 @@ components:
           nullable: true
         dateInteraction:
           description: 'The date of the interaction.'
-          externalDocs:
-            url: 'http://schema.org/DateTime'
           type: string
           format: date-time
           nullable: true
@@ -3471,8 +3469,6 @@ components:
           nullable: true
         dateInteraction:
           description: 'The date of the interaction.'
-          externalDocs:
-            url: 'http://schema.org/DateTime'
           type: string
           format: date-time
           nullable: true
@@ -3525,8 +3521,6 @@ components:
           nullable: true
         dateInteraction:
           description: 'The date of the interaction.'
-          externalDocs:
-            url: 'http://schema.org/DateTime'
           type: string
           format: date-time
           nullable: true
@@ -3590,8 +3584,6 @@ components:
           nullable: true
         dateInteraction:
           description: 'The date of the interaction.'
-          externalDocs:
-            url: 'http://schema.org/DateTime'
           type: string
           format: date-time
           nullable: true
@@ -3633,9 +3625,8 @@ definitions:
         type: array
       dateInteraction:
         description: 'The date of the interaction.'
-        type: string
-        example: '2020-11-20 12:29:26'
-        format: date-time
+        type: \DateTime
+        example: 10-12-2019
       dateCreated:
         description: 'The moment this resource was created'
         type: \Datetime
@@ -3678,9 +3669,8 @@ definitions:
         type: array
       dateInteraction:
         description: 'The date of the interaction.'
-        type: string
-        example: '2020-11-20 12:29:26'
-        format: date-time
+        type: \DateTime
+        example: 10-12-2019
     required:
       - topic
       - message
@@ -3789,12 +3779,12 @@ definitions:
         description: 'The moment this request was created'
         type: string
         format: date-time
-        example: '2020-11-20 12:29:27'
+        example: '2021-02-11 09:56:20'
       dateModified:
         description: 'The moment this request last Modified'
         type: string
         format: date-time
-        example: '2020-11-20 12:29:27'
+        example: '2021-02-11 09:56:20'
     required: []
   AuditTrail-write:
     properties:
@@ -3842,12 +3832,12 @@ definitions:
         description: 'The moment this request was created'
         type: string
         format: date-time
-        example: '2020-11-20 12:29:27'
+        example: '2021-02-11 09:56:20'
       dateModified:
         description: 'The moment this request last Modified'
         type: string
         format: date-time
-        example: '2020-11-20 12:29:27'
+        example: '2021-02-11 09:56:20'
     required: []
   ChangeLog-write:
     properties:
