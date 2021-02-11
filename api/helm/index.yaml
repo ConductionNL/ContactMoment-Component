@@ -3,10 +3,10 @@ entries:
   cmc:
   - apiVersion: v1
     appVersion: V1.0
-    created: "2020-11-30T13:02:09.8704942Z"
-    description: '&#039;Naast deze JSON rest API is er ook een [graphql](/graphql)
-      interface beschikbaar.&#039;'
-    digest: 48c71557c60578a4cc343bcd440fc65f52c8bf146f91b52189aff0389350f513
+    created: "2021-02-11T09:55:04.7052571Z"
+    description: Naast deze JSON rest API is er ook een [graphql](/graphql) interface
+      beschikbaar.
+    digest: 7bcef03280a3f8e4fc8c5c84e3fe9a973f0b70d3968a65488a446ff741a41d7f
     home: cmc.zaakonline.nl
     icon: cmc.zaakonline.nl
     name: cmc
@@ -16,7 +16,7 @@ entries:
   postgresql:
   - apiVersion: v1
     appVersion: 11.7.0
-    created: "2020-11-30T13:02:09.8807971Z"
+    created: "2021-02-11T09:55:04.7159949Z"
     deprecated: true
     description: DEPRECATED Chart for PostgreSQL, an object-relational database management
       system (ORDBMS) with an emphasis on extensibility and on standards-compliance.
@@ -36,4 +36,4 @@ entries:
     urls:
     - charts/postgresql-8.6.4.tgz
     version: 8.6.4
-generated: "2020-11-30T13:02:09.8648228Z"
+generated: "2021-02-11T09:55:04.6914988Z"
