@@ -3,20 +3,33 @@ entries:
   cmc:
   - apiVersion: v1
     appVersion: V1.0
-    created: "2021-02-11T09:55:04.7052571Z"
+    created: "2021-02-17T20:31:53.9713488Z"
     description: Naast deze JSON rest API is er ook een [graphql](/graphql) interface
       beschikbaar.
-    digest: 7bcef03280a3f8e4fc8c5c84e3fe9a973f0b70d3968a65488a446ff741a41d7f
+    digest: 59f1361d6a94b360a63d497dabf7ddeb6d9618c377b4d758398c4d88884bd070
     home: cmc.zaakonline.nl
     icon: cmc.zaakonline.nl
+    keywords:
+    - commonground
+    - haven
+    - nlx
+    - component
+    maintainers:
+    - email: ruben@conduction.nl
+      name: Ruben van der Linde
+    - email: info@conduction.nl
+      name: Conduction
     name: cmc
+    sources:
+    - https://commonground.conduction.nl/
+    - https://www.commonground.nl/
     urls:
     - cmc-0.1.0.tgz
     version: 0.1.0
   postgresql:
   - apiVersion: v1
     appVersion: 11.7.0
-    created: "2021-02-11T09:55:04.7159949Z"
+    created: "2021-02-17T20:31:53.9850016Z"
     deprecated: true
     description: DEPRECATED Chart for PostgreSQL, an object-relational database management
       system (ORDBMS) with an emphasis on extensibility and on standards-compliance.
@@ -36,4 +49,4 @@ entries:
     urls:
     - charts/postgresql-8.6.4.tgz
     version: 8.6.4
-generated: "2021-02-11T09:55:04.6914988Z"
+generated: "2021-02-17T20:31:53.9600053Z"

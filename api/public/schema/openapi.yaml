@@ -1,16 +1,16 @@
 openapi: 3.0.2
 info:
-  title: 'Contact Moment Component'
+  title: ''
   version: V1.0
   description: |
     API Details
-    - Component: Contact Moment Component
-    - Reference: cmc
+    - Component: 
+    - Reference: contactmoment-component
     - Enviroment: dev
     - Version: V1.0
     - Repository: [online](https://github.com/ConductionNL/ContactMoment-Component) / [zip](https://github.com/ConductionNL/ContactMoment-Component/archive/master.zip)
-    - Docker Image: [online](https://hub.docker.com/repository/docker/conduction/cmc-php) 
-    - Datamodel: [postman](/schema/cmc.postman_collection.json) / [oas](/schema/openapi.yaml) / [pdf](/schema/datamodel.pdf) / [mwb](/schema/datamodel.mwb) 
+    - Docker Image: [online]() 
+    - Datamodel: [postman](/schema/contactmoment-component.postman_collection.json) / [oas](/schema/openapi.yaml) / [pdf](/schema/datamodel.pdf) / [mwb](/schema/datamodel.mwb) 
     
     Naast deze JSON rest API is er ook een [graphql](/graphql) interface beschikbaar.         
     
@@ -3779,12 +3779,12 @@ definitions:
         description: 'The moment this request was created'
         type: string
         format: date-time
-        example: '2021-02-11 09:56:20'
+        example: '2021-02-17 20:33:07'
       dateModified:
         description: 'The moment this request last Modified'
         type: string
         format: date-time
-        example: '2021-02-11 09:56:20'
+        example: '2021-02-17 20:33:07'
     required: []
   AuditTrail-write:
     properties:
@@ -3832,12 +3832,12 @@ definitions:
         description: 'The moment this request was created'
         type: string
         format: date-time
-        example: '2021-02-11 09:56:20'
+        example: '2021-02-17 20:33:07'
       dateModified:
         description: 'The moment this request last Modified'
         type: string
         format: date-time
-        example: '2021-02-11 09:56:20'
+        example: '2021-02-17 20:33:07'
     required: []
   ChangeLog-write:
     properties:
@@ -3885,7 +3885,7 @@ host: irc.zaakonline.nl
 servers:
   -
     name: conduction.nl
-    url: cmc.dev.conduction.nl
+    url: contactmoment-component.dev.conduction.nl
 externalDocs:
   -
     description: 'OAS Documentatie'
