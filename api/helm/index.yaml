@@ -3,7 +3,7 @@ entries:
   cmc:
   - apiVersion: v1
     appVersion: V1.0
-    created: "2021-02-17T20:31:53.9713488Z"
+    created: "2021-02-18T19:44:54.3342391Z"
     description: Naast deze JSON rest API is er ook een [graphql](/graphql) interface
       beschikbaar.
     digest: 59f1361d6a94b360a63d497dabf7ddeb6d9618c377b4d758398c4d88884bd070
@@ -26,10 +26,36 @@ entries:
     urls:
     - cmc-0.1.0.tgz
     version: 0.1.0
+  contactmoment-component:
+  - apiVersion: v1
+    appVersion: V1.0
+    created: "2021-02-18T19:44:54.3420459Z"
+    description: Naast deze JSON rest API is er ook een [graphql](/graphql) interface
+      beschikbaar.
+    digest: 6327435bed17027dc455011e47d65af5d00c179ba891d1ea019b295a98a3bbe9
+    home: https://www.conduction.nl
+    icon: https://conductionnl.github.io/images/conduction_avatar_blue_on_transparant.svg
+    keywords:
+    - commonground
+    - haven
+    - nlx
+    - component
+    maintainers:
+    - email: ruben@conduction.nl
+      name: Ruben van der Linde
+    - email: info@conduction.nl
+      name: Conduction
+    name: contactmoment-component
+    sources:
+    - https://commonground.conduction.nl/
+    - https://www.commonground.nl/
+    urls:
+    - contactmoment-component-0.1.0.tgz
+    version: 0.1.0
   postgresql:
   - apiVersion: v1
     appVersion: 11.7.0
-    created: "2021-02-17T20:31:53.9850016Z"
+    created: "2021-02-18T19:44:54.3486576Z"
     deprecated: true
     description: DEPRECATED Chart for PostgreSQL, an object-relational database management
       system (ORDBMS) with an emphasis on extensibility and on standards-compliance.
@@ -49,4 +75,4 @@ entries:
     urls:
     - charts/postgresql-8.6.4.tgz
     version: 8.6.4
-generated: "2021-02-17T20:31:53.9600053Z"
+generated: "2021-02-18T19:44:54.3274351Z"
