@@ -1,4 +1,4 @@
-# cmc
+# contactmoment-component
 
 Description
 ----

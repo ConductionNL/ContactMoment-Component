@@ -11,8 +11,8 @@ settings:
   repro: https://github.com/ConductionNL/ContactMoment-Component
   demo: cmc.zaakonline.nl
   domain: conduction.nl
-  subdomain: cmc
-  subpath: cmc
+  subdomain: contactmoment-component
+  subpath: contactmoment-component
   subpathRouting: true
   env: dev
   web: false
