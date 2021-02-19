@@ -3,10 +3,10 @@ entries:
   contactmoment-component:
   - apiVersion: v1
     appVersion: V1.0
-    created: "2021-02-18T21:21:51.9046295Z"
+    created: "2021-02-19T14:08:07.5801782Z"
     description: Naast deze JSON rest API is er ook een [graphql](/graphql) interface
       beschikbaar.
-    digest: 0757f7c68f9a3ec2cbb65cbc12582c776e30c46989cc67f6f725a49467ca6f7b
+    digest: 73462d49d880a7d8879629aa8210034ba3c13494a75e5b8631e6b5ddeb656a63
     home: https://www.conduction.nl
     icon: https://conductionnl.github.io/images/conduction_avatar_blue_on_transparant.svg
     keywords:
@@ -29,7 +29,7 @@ entries:
   postgresql:
   - apiVersion: v1
     appVersion: 11.7.0
-    created: "2021-02-18T21:21:51.9176528Z"
+    created: "2021-02-19T14:08:07.5898645Z"
     deprecated: true
     description: DEPRECATED Chart for PostgreSQL, an object-relational database management
       system (ORDBMS) with an emphasis on extensibility and on standards-compliance.
@@ -49,4 +49,4 @@ entries:
     urls:
     - charts/postgresql-8.6.4.tgz
     version: 8.6.4
-generated: "2021-02-18T21:21:51.8950615Z"
+generated: "2021-02-19T14:08:07.5652115Z"
